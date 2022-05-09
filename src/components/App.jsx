@@ -1,5 +1,5 @@
 import React from 'react'
-import { VStack, Flex, Box, Text, Icon } from '@chakra-ui/react'
+import { VStack, Flex, Box, Text, Icon, Tag } from '@chakra-ui/react'
 import { FaLaptopHouse,FaMicroscope } from 'react-icons/fa'
 import { BiHomeSmile } from 'react-icons/bi'
 
@@ -27,6 +27,7 @@ function App() {
               <Box className='details' ml={"15px"}>
                 <Text fontWeight={"bold"} p="2px">Inclinic</Text>
                 <Text display={"flex"} p="3px">Find Doctors near you</Text>
+                <Tag colorScheme={"yellow"} mt="10px">Coming Soon</Tag>
               </Box>
             </Flex>
           </Box>
@@ -38,6 +39,7 @@ function App() {
               <Box className='details' ml={"15px"}>
                 <Text fontWeight={"bold"} p="2px">Lab-Test</Text>
                 <Text display={"flex"} p="3px">Lab Tests at Home</Text>
+                <Tag colorScheme={"yellow"} mt="10px">Coming Soon</Tag>
               </Box>
             </Flex>
           </Box>
